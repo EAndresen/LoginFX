@@ -15,7 +15,6 @@ import javafx.stage.Stage;
  * Created by ${Eric} on 2017-03-14.
  */
 public class main extends Application {
-
     private LoginClass loginClass = new LoginClass();
     private Button btn = new Button();
 

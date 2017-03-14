@@ -1,4 +1,5 @@
 import java.util.Objects;
+
 /**
  * Created by ${Eric} on 2017-03-14.
  */
