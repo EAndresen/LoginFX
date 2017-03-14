@@ -1,11 +1,9 @@
 import java.util.Objects;
-
 /**
- * Created by erica on 2017-03-14.
+ * Created by ${Eric} on 2017-03-14.
  */
-public class LoginClass {
-
-    public String loginCheck(String username, String password) {
+class LoginClass {
+    String loginCheck(String username, String password) {
         String returnString;
         if(Objects.equals(username, "Admin") && Objects.equals(password, "admin")){
             returnString = "Access granted";

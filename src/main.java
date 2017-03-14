@@ -11,9 +11,8 @@ import javafx.scene.text.Font;
 import javafx.scene.text.FontWeight;
 import javafx.scene.text.Text;
 import javafx.stage.Stage;
-
 /**
- * Created by erica on 2017-03-14.
+ * Created by ${Eric} on 2017-03-14.
  */
 public class main extends Application {
 
