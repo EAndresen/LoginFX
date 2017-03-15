@@ -58,7 +58,7 @@ public class main extends Application {
         gridPane.add(hbBtn, 1, 4);
 
 //        Login response
-        final Text loginResponse = new Text();
+        Text loginResponse = new Text();
         gridPane.add(loginResponse, 1, 6);
         loginResponse.setId("loginResponse");
 
@@ -66,8 +66,7 @@ public class main extends Application {
         btn.setOnAction((ActionEvent e) -> {
             String username = userTextField.getText();
             String password = pwBox.getText();
-            String access = loginClass.loginCheck(username, password);
-            loginResponse.setFill(Color.FIREBRICK);
+            String access = loginClass.loginCheck(loginResponse, username, password);
             loginResponse.setText(access);
         });
 
