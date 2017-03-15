@@ -4,9 +4,9 @@ import javafx.geometry.Pos;
 import javafx.scene.Scene;
 import javafx.scene.layout.*;
 import javafx.stage.Stage;
-/**
- * Created by ${Eric} on 2017-03-14.
- */
+
+// * Created by ${Eric} on 2017-03-14.
+
 public class main extends Application {
     private LoginView loginView = new LoginView();
 

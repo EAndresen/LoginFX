@@ -1,5 +1,4 @@
 import javafx.event.ActionEvent;
-import javafx.geometry.Insets;
 import javafx.geometry.Pos;
 import javafx.scene.Scene;
 import javafx.scene.control.Button;
@@ -13,9 +12,9 @@ import javafx.scene.text.Font;
 import javafx.scene.text.FontWeight;
 import javafx.scene.text.Text;
 
-/**
- * Created by ${Eric} on 2017-03-15.
- */
+
+// * Created by ${Eric} on 2017-03-15.
+
 class LoginView {
     private Button btn = new Button();
     private LoginClass loginClass = new LoginClass();
@@ -66,5 +65,5 @@ class LoginView {
                     btn.fire();
                 }
             });
-    }
+        }
 }
